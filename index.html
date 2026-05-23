@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Dashboard</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; background: #f4f7f6; color: #333; padding: 40px 20px; display: flex; flex-direction: column; align-items: center; }
+        header { margin-bottom: 40px; text-align: center; }
+        h1 { margin: 0; font-size: 2.2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; width: 100%; max-width: 900px; }
+        .tile { background: #fff; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 30px 20px; text-align: center; text-decoration: none; color: #333; font-weight: 600; font-size: 1.1rem; transition: all 0.2s ease; border: 1px solid rgba(0,0,0,0.05); display: flex; align-items: center; justify-content: center; min-height: 100px; }
+        .tile:hover { transform: translateY(-3px); background: #eef2f7; color: #0066cc; border-color: #0066cc; box-shadow: 0 8px 15px rgba(0,0,0,0.15); }
+    </style>
+</head>
+<body>
+    <header><h1>Application Portal</h1></header>
+    <main class="grid">
+        <a href="https://merc-cmms.vercel.app/" target="_blank" class="tile">MERC-CMMS</a>
+        <a href="https://arhassets.netlify.app/login" target="_blank" class="tile">Device Guardian</a>
+        <a href="https://homestead-helper.vercel.app/" target="_blank" class="tile">Square Dance Farms</a>
+        <a href="https://projectcompassnp.netlify.app/" target="_blank" class="tile">Project Compass</a>
+    </main>
+</body>
+</html>
